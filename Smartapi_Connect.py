@@ -26,14 +26,14 @@ Todate = D
 
 api_key = 'N6YxYEPv'
 username = 'Aakash Verma'
-pwd = '9818'
-Client_ID = 'A51427597'
+pwd = '1234'
+Client_ID = 'A12345678'
 smartApi = SmartConnect(api_key)
 
 
 
 try:
-    token = 'R6JIVSWA2PEKCAUYRUDCMTWF64'
+    token = 'R6JIVSWA2PEKCbUYRUDCMOWF64'
     totp = pyotp.TOTP(token).now()
 except Exception as e:
     logger.error("Invalid Token: The provided token is not valid.")
