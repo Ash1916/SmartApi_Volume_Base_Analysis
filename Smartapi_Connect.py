@@ -134,7 +134,7 @@ else:
     
     Ly = xl.load_workbook("C:/Users/akaeh/Downloads/Doji, Technical Analysis Scanner (7).xlsx")
     Data_1 = Ly.active
-    n = 165
+    n = 3
     
     while True:
         # Potencial Stock Name from colum B
